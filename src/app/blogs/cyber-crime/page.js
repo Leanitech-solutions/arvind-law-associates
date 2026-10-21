@@ -30,7 +30,7 @@ export default function blogDetailsPage() {
 
                 {/* Article Content */}
                 <article className="prose prose-lg max-w-none text-on-surface-variant font-body-lg">
-                  <h2 className="font-headline-lg text-primary mb-6">Cyber Crime and Online Fraud in India: Recent Scams, Digital Arrests and How You Can Protect Yourself</h2>
+                  <h1 className="font-headline-md font-bold text-3xl md:text-4xl lg:text-5xl text-primary mb-6 leading-tight">Cyber Crime and Online Fraud in India: Recent Scams, Digital Arrests and How You Can Protect Yourself</h1>
                   <p className="mb-6 leading-relaxed">
                     The rapid growth of digital banking, UPI payments, online investments, social media and mobile applications has made everyday life easier. At the same time, it has created new opportunities for cyber criminals to target individuals, businesses and families.
                   </p>

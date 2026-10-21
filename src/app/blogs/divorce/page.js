@@ -26,7 +26,7 @@ export default function BlogDivorcePage() {
                 </div>
 
                 <article className="prose prose-lg max-w-none text-on-surface-variant font-body-lg">
-                  <h2 className="font-headline-lg text-primary mb-6">Divorce, Custody and Maintenance: A Guide to Matrimonial Law</h2>
+                  <h1 className="font-headline-md font-bold text-3xl md:text-4xl lg:text-5xl text-primary mb-6 leading-tight">Divorce, Custody and Maintenance: A Guide to Matrimonial Law</h1>
                   <p className="mb-6 leading-relaxed">
                     Divorce and related disputes are often the most difficult period in a person's life. The legal process in India can be slow, complex, and emotionally draining. However, a clear understanding of your rights and options can reduce the uncertainty.
                   </p>

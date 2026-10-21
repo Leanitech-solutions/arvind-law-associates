@@ -23,7 +23,7 @@ export default function Footer() {
         <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="/">Home</Link>
         <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="/about-us">About Us</Link>
         <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="/services">Practice Areas</Link>
-        <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="#">Legal Insights</Link>
+        <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="/#articles">Legal Insights</Link>
         <Link className="text-on-primary/70 hover:text-tertiary-fixed-dim transition-colors w-fit text-sm"  href="/contact">Contact Us</Link>
       </div>
       <div className="flex flex-col gap-4" >

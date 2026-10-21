@@ -26,7 +26,7 @@ export default function BlogDVPage() {
                 </div>
 
                 <article className="prose prose-lg max-w-none text-on-surface-variant font-body-lg">
-                  <h2 className="font-headline-lg text-primary mb-6">Domestic violence: the Protection of Women from Domestic Violence Act, 2005</h2>
+                  <h1 className="font-headline-md font-bold text-3xl md:text-4xl lg:text-5xl text-primary mb-6 leading-tight">Domestic violence: the Protection of Women from Domestic Violence Act, 2005</h1>
                   <p className="mb-6 leading-relaxed">
                     The DV Act is a civil law that gives a woman quick, practical protection at home, without having to start a criminal case. It covers a wife, a woman in a relationship in marriage (live-in), and mothers, sisters and daughters living in a shared household.
                   </p>

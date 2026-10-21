@@ -256,6 +256,15 @@ export default function HomePage() {
               Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
             </Link>
           </div>
+          {/* Article 4 */}
+          <div className="bg-surface flex flex-col" >
+            <img className="w-full h-48 object-cover mb-6" alt="Wills, Probate and Estate Planning in India"  src="/assets/img/blogs/Wills and Succession in India.png" />
+            <h4 className="font-headline-sm text-lg text-primary mb-3 leading-snug" >Wills in India: Registered &amp; Unregistered Wills, Probate &amp; Safeguards</h4>
+            <p className="text-xs text-on-surface-variant mb-4" >October 21, 2026</p>
+            <Link className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto"  href="/blogs/wills">
+              Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
+            </Link>
+          </div>
         </div>
 
       </div>
