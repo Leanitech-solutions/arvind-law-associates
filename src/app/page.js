@@ -35,13 +35,13 @@ export default function HomePage() {
           </div>
         </div>
         <div className="relative h-full flex items-end justify-center md:justify-start pt-4 md:pt-20" >
-          <img className="relative z-10 max-h-[350px] md:max-h-[600px] object-contain drop-shadow-2xl rounded-xl" alt="Hero Image"  src="/assets/img/hero-image.png" />
+          <img className="relative z-10 max-h-[350px] md:max-h-[600px] object-contain drop-shadow-2xl rounded-xl" alt="Hero Image" src="/assets/img/hero-image.webp" fetchPriority="high" width="540" height="720" />
           <div className="absolute top-10 -right-4 lg:-right-12 xl:-right-16 text-right z-20 hidden lg:block bg-primary/70 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-2xl" >
             <div className="flex flex-col items-end mb-6" >
               <div className="w-16 h-16 border-2 border-tertiary-fixed-dim rounded-full flex items-center justify-center mb-4" >
                 <span className="material-symbols-outlined text-tertiary-fixed-dim text-3xl"  data-icon="balance">balance</span>
               </div>
-              <h3 className="font-headline-sm text-headline-sm text-on-primary mb-1" >Adv. Sandesh Arvind</h3>
+              <p className="font-headline-sm text-headline-sm text-on-primary mb-1" >Adv. Sandesh Arvind</p>
               <p className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase" >Founder &amp; Principal Advocate</p>
             </div>
             <div className="flex flex-col gap-2 text-sm text-on-primary/80 font-body-md" >
@@ -59,7 +59,7 @@ export default function HomePage() {
     <section className="py-section-gap bg-surface text-center" >
       <div className="px-gutter max-w-container-max mx-auto" >
         <div className="mb-16" >
-          <h2 className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase mb-4 tracking-widest" >What We Do</h2>
+          <h2 className="font-label-caps text-label-caps text-tertiary-dark uppercase mb-4 tracking-widest" >What We Do</h2>
           <h3 className="font-display-lg-mobile md:font-headline-md text-display-lg-mobile md:text-headline-md text-primary" >Our Practice Areas</h3>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-12 mb-12" >
@@ -146,7 +146,7 @@ export default function HomePage() {
           <img className="w-full h-full object-cover grayscale-[30%]" alt="Legal Books and Gavel"  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsLrVmrGKuT37zPIFXTsOkO4n959Yf3I3nmOj3xQX13JaQPPKyZieTuR4dd1AC_ws4UBKPm0Kiap3Iu9NFHqSPANOT1U2vobbBkvTvCfSOjjraAr789WA-SNBescfbbhCbay3Hcmrjj-ooII33G1FkyUIYfikCEovUMwxgcsWDw4gnkAAms0lAQgdhvcZ63xODWGb9GhODQW36nLeXc1k0IyUucvLelXKCQ5krz4RAgXof9y62fPgi" />
         </div>
         <div className="p-12 md:p-20 flex flex-col justify-center bg-surface" >
-          <h2 className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase mb-4 tracking-widest" >About The Advocate</h2>
+          <h2 className="font-label-caps text-label-caps text-tertiary-dark uppercase mb-4 tracking-widest" >About The Advocate</h2>
           <h3 className="font-headline-md text-headline-md text-primary mb-8 leading-tight" >
             A Practice Built on<br />Integrity, Knowledge &amp; Experience
           </h3>
@@ -203,7 +203,7 @@ export default function HomePage() {
           <div className="absolute -right-20 -top-20 w-64 h-64 bg-tertiary-fixed-dim/5 rounded-full pointer-events-none"></div>
           
           <div className="flex-1 md:pr-12 text-center md:text-left mb-8 md:mb-0 z-10">
-            <h2 className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase mb-3 tracking-widest">Client Feedback</h2>
+            <h2 className="font-label-caps text-label-caps text-tertiary-dark uppercase mb-3 tracking-widest">Client Feedback</h2>
             <h3 className="font-headline-md text-headline-md text-primary mb-4">Leave Us a Review on Google</h3>
             <p className="font-body-md text-on-surface-variant max-w-xl mx-auto md:mx-0">
               Your feedback helps us continue to provide exceptional legal services. Scan the QR code to leave a review of your experience with Arvind Law Associates.
@@ -212,9 +212,12 @@ export default function HomePage() {
           
           <div className="flex-shrink-0 z-10 bg-white p-4 rounded-xl shadow-md border border-outline-variant/10">
             <img 
-              src="/assets/img/Google-Color QR Code on Transparency.png" 
+              src="/assets/img/Google-Color QR Code on Transparency.webp" 
               alt="Scan to leave a Google Review" 
               className="w-48 h-48 object-contain"
+              width="192"
+              height="192"
+              loading="lazy"
             />
             <p className="text-center text-xs font-label-caps text-primary uppercase tracking-widest mt-3">Scan to Review</p>
           </div>
@@ -225,43 +228,43 @@ export default function HomePage() {
     <section id="articles" className="py-section-gap bg-surface" >
       <div className="px-gutter max-w-container-max mx-auto" >
         <div className="text-center mb-12" >
-          <h2 className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase mb-2 tracking-widest" >Legal Insights</h2>
+          <h2 className="font-label-caps text-label-caps text-tertiary-dark uppercase mb-2 tracking-widest" >Legal Insights</h2>
           <h3 className="font-headline-md text-headline-md text-primary" >Articles &amp; Legal Updates</h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12" >
           {/* Article 1 */}
           <div className="bg-surface flex flex-col" >
-            <img className="w-full h-48 object-cover mb-6" alt="Cyber Security"  src="/assets/img/blogs/Digital Scam Alert_ UPI and Fake Arrest Threats.png" />
+            <img className="w-full h-48 object-cover mb-6 rounded-lg" alt="Cyber Security" src="/assets/img/blogs/Digital Scam Alert_ UPI and Fake Arrest Threats.webp" width="400" height="192" loading="lazy" />
             <h4 className="font-headline-sm text-lg text-primary mb-3 leading-snug" >Cyber Crime and Online Fraud in India: Recent Scams & Protection</h4>
             <p className="text-xs text-on-surface-variant mb-4" >September 16, 2026</p>
-            <Link className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto"  href="/blogs/cyber-crime">
+            <Link className="font-label-caps text-label-caps text-tertiary-dark uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto font-semibold"  href="/blogs/cyber-crime">
               Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
             </Link>
           </div>
           {/* Article 2 */}
           <div className="bg-surface flex flex-col" >
-            <img className="w-full h-48 object-cover mb-6" alt="Divorce and Family Law"  src="/assets/img/blogs/Broken Bonds_ India’s Divorce Journey.png" />
+            <img className="w-full h-48 object-cover mb-6 rounded-lg" alt="Divorce and Family Law" src="/assets/img/blogs/Broken Bonds_ India’s Divorce Journey.webp" width="400" height="192" loading="lazy" />
             <h4 className="font-headline-sm text-lg text-primary mb-3 leading-snug" >Divorce, Custody and Maintenance: A Guide to Matrimonial Law</h4>
             <p className="text-xs text-on-surface-variant mb-4" >October 7, 2026</p>
-            <Link className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto"  href="/blogs/divorce">
+            <Link className="font-label-caps text-label-caps text-tertiary-dark uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto font-semibold"  href="/blogs/divorce">
               Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
             </Link>
           </div>
           {/* Article 3 */}
           <div className="bg-surface flex flex-col" >
-            <img className="w-full h-48 object-cover mb-6" alt="Domestic Violence and Cruelty"  src="/assets/img/blogs/Defend, Seek Justice, Find Safety.png" />
+            <img className="w-full h-48 object-cover mb-6 rounded-lg" alt="Domestic Violence and Cruelty" src="/assets/img/blogs/Defend, Seek Justice, Find Safety.webp" width="400" height="192" loading="lazy" />
             <h4 className="font-headline-sm text-lg text-primary mb-3 leading-snug" >Domestic Violence and Cruelty: Protection of Women</h4>
             <p className="text-xs text-on-surface-variant mb-4" >October 7, 2026</p>
-            <Link className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto"  href="/blogs/domestic-violence">
+            <Link className="font-label-caps text-label-caps text-tertiary-dark uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto font-semibold"  href="/blogs/domestic-violence">
               Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
             </Link>
           </div>
           {/* Article 4 */}
           <div className="bg-surface flex flex-col" >
-            <img className="w-full h-48 object-cover mb-6" alt="Wills, Probate and Estate Planning in India"  src="/assets/img/blogs/Wills and Succession in India.png" />
+            <img className="w-full h-48 object-cover mb-6 rounded-lg" alt="Wills, Probate and Estate Planning in India" src="/assets/img/blogs/Wills and Succession in India.webp" width="400" height="192" loading="lazy" />
             <h4 className="font-headline-sm text-lg text-primary mb-3 leading-snug" >Wills in India: Registered &amp; Unregistered Wills, Probate &amp; Safeguards</h4>
             <p className="text-xs text-on-surface-variant mb-4" >October 21, 2026</p>
-            <Link className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto"  href="/blogs/wills">
+            <Link className="font-label-caps text-label-caps text-tertiary-dark uppercase flex items-center gap-2 hover:text-primary transition-colors mt-auto font-semibold"  href="/blogs/wills">
               Read More <span className="material-symbols-outlined text-[16px]"  data-icon="arrow_right_alt">arrow_right_alt</span>
             </Link>
           </div>

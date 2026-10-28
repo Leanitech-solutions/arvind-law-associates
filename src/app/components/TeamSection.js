@@ -51,8 +51,8 @@ export default function TeamSection({
       <div className="px-gutter max-w-container-max mx-auto relative z-10">
         {showHeader && (
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <div className="font-label-caps text-label-caps text-tertiary-fixed-dim uppercase tracking-widest mb-3 flex items-center justify-center gap-2">
-              <img src="/assets/img/core-img/hammer.png" alt="" className="w-5 h-5 object-contain" />
+            <div className="font-label-caps text-label-caps text-tertiary-dark uppercase tracking-widest mb-3 flex items-center justify-center gap-2">
+              <img src="/assets/img/core-img/hammer.png" alt="" className="w-5 h-5 object-contain" width="20" height="20" loading="lazy" />
               <span>{subtitle}</span>
             </div>
             <h2 className="font-headline-md text-headline-md text-primary mb-4 leading-tight">
@@ -88,13 +88,14 @@ export default function TeamSection({
                     src={member.image}
                     alt={member.name}
                     className="h-full w-auto max-w-full object-contain object-bottom transition-transform duration-500 group-hover:scale-105"
+                    loading="lazy"
                   />
                 </div>
               </div>
 
               {/* Card Body */}
               <div className="p-6 md:p-8 flex-1 flex flex-col">
-                <p className="font-label-caps text-xs text-tertiary-fixed-dim uppercase tracking-widest font-semibold mb-1">
+                <p className="font-label-caps text-xs text-tertiary-dark uppercase tracking-widest font-semibold mb-1">
                   {member.role}
                 </p>
                 <h3 className="font-headline-sm text-2xl text-primary font-bold mb-3 group-hover:text-tertiary-fixed-dim transition-colors">
